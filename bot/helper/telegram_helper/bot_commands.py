@@ -4,9 +4,9 @@ from bot import CMD_SUFFIX
 class _BotCommands:
     def __init__(self):
         self.StartCommand = f"start1{CMD_SUFFIX}"
-        self.MirrorCommand = [f"mirror1{CMD_SUFFIX}", f"m{CMD_SUFFIX}"]
-        self.QbMirrorCommand = [f"qbmirror1{CMD_SUFFIX}", f"qm{CMD_SUFFIX}"]
-        self.JdMirrorCommand = [f"jdmirror1{CMD_SUFFIX}", f"jm{CMD_SUFFIX}"]
+        self.MirrorCommand = [f"mirror1{CMD_SUFFIX}", f"m1{CMD_SUFFIX}"]
+        self.QbMirrorCommand = [f"qbmirror1{CMD_SUFFIX}", f"qm1{CMD_SUFFIX}"]
+        self.JdMirrorCommand = [f"jdmirror1{CMD_SUFFIX}", f"jm1{CMD_SUFFIX}"]
         self.YtdlCommand = [f"ytdl1{CMD_SUFFIX}", f"y1{CMD_SUFFIX}"]
         self.NzbMirrorCommand = [f"nzbmirror1{CMD_SUFFIX}", f"nm1{CMD_SUFFIX}"]
         self.LeechCommand = [f"leech1{CMD_SUFFIX}", f"l1{CMD_SUFFIX}"]
